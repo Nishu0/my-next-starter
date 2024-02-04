@@ -1,26 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Starter Kit
 
-## Getting Started
 
-First, run the development server:
+## 🚀 Getting Started
 
-```bash
-npm run dev
+Run the following command to create a new project with this Starter:
+
+```
+yarn create next-app my-app -e https://github.com/Nishu0/my-next-starter
 # or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npx create-next-app my-app -e https://github.com/Nishu0/my-next-starter
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Once the project and dependencies are finished installing, you can navigate to that directory and start up the development server with:
+```
+yarn dev
+or
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see your new project!
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🧐 What's inside?
+This Starter includes tailwind-merge, clsx, prettier, framer-motion, and some default folders.
 
-## Learn More
+The rest of the Starter is based off of the Next.js default starter.
+
+## 📚 Learn More About Next.js
 
 To learn more about Next.js, take a look at the following resources:
 
@@ -29,8 +34,19 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Contributors ✨
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Thanks goes to these wonderful people:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://bento.me/itsnisargthakkar"><img src="https://avatars.githubusercontent.com/u/89217455?v=4" width="100px;" alt=""/><br /><sub><b>Nisarg Thakkar</b></sub></a><br /><a href="https://github.com/Nishu0" title="Code">💻</a> <a href="https://nishu0.hashnode.dev/" title="Documentation">📖</a></td>
+  </tr>
+</table>
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
