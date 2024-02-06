@@ -1,1 +1,1 @@
-# Components for ASTRA UI
+# Components

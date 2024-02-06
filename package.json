@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "lint-check": "prettier --check --ignore-path .gitignore .",
+    "lint-fix": "prettier --write --ignore-path .gitignore ."
   },
   "dependencies": {
     "clsx": "^2.1.0",
